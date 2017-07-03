@@ -1,4 +1,4 @@
-package main.java.com.zhangtao.config.dbconfig;
+package com.zhangtao.config.dbconfig;
 
 /**
  * Created by zhangtao on 2017/6/26.

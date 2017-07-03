@@ -1,4 +1,4 @@
-//package main.java.com.zhangtao.aop;
+//package com.zhangtao.aop;
 //
 //import org.aspectj.lang.annotation.Aspect;
 //import org.aspectj.lang.annotation.Before;
@@ -20,22 +20,22 @@
 //
 //	private static Logger log = LoggerFactory.getLogger(DataSourceAopInDao.class);
 //
-//	@Before("execution(* main.java.com.zhangtao.dao..*.find*(..)) "
-//			+ " or execution(* main.java.com.zhangtao.dao..*.get*(..)) "
-//			+ " or execution(* main.java.com.zhangtao.dao..*.query*(..))")
+//	@Before("execution(* com.zhangtao.dao..*.find*(..)) "
+//			+ " or execution(* com.zhangtao.dao..*.get*(..)) "
+//			+ " or execution(* com.zhangtao.dao..*.query*(..))")
 //    public void setUserDBReadDataSourceType() {
 //        DataSourceContextHolder.setUserDBRead();
 //    }
 //
-//    @Before("execution(* main.java.com.zhangtao.dao..*.insert*(..)) "
-//    		+ " or execution(* main.java.com.zhangtao.dao..*.update*(..))"
-//    		+ " or execution(* main.java.com.zhangtao.dao..*.add*(..))")
+//    @Before("execution(* com.zhangtao.dao..*.insert*(..)) "
+//    		+ " or execution(* com.zhangtao.dao..*.update*(..))"
+//    		+ " or execution(* com.zhangtao.dao..*.add*(..))")
 //    public void setUserDBWriteDataSourceType() {
 //        DataSourceContextHolder.setWrite();
 //    }
 //
 //
-///*    @Before("execution(* main.java.com.zhangtao.dao..*.*(..)) "
+///*    @Before("execution(* com.zhangtao.dao..*.*(..)) "
 //			+ " and @annotation(UserDBReadDataSource) ")
 //	public void setUserDBReadDataSourceType() {
 //		//如果已经开启写事务了，那之后的所有读都从写库读
@@ -45,8 +45,8 @@
 //
 //	}
 //
-//	@Before("execution(* main.java.com.zhangtao.dao..*.*(..)) "
-//			+ " and @annotation(main.java.com.zhangtao.annotation.WriteDataSource) ")
+//	@Before("execution(* com.zhangtao.dao..*.*(..)) "
+//			+ " and @annotation(com.zhangtao.annotation.WriteDataSource) ")
 //	public void setUserDBWriteDataSourceType() {
 //	    DataSourceContextHolder.setWrite();
 //	}*/

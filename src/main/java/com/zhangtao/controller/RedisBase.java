@@ -1,4 +1,4 @@
-package main.java.com.zhangtao.controller;
+package com.zhangtao.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;

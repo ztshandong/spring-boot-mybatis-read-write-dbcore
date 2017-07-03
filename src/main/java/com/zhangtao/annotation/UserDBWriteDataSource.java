@@ -1,4 +1,4 @@
-package main.java.com.zhangtao.annotation;
+package com.zhangtao.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

@@ -1,4 +1,4 @@
-package main.java.com.zhangtao.dao;
+package com.zhangtao.dao;
 
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;

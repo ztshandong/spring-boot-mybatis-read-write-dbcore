@@ -1,4 +1,4 @@
-package main.java.com.zhangtao.config.dbconfig;
+package com.zhangtao.config.dbconfig;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.ibatis.executor.Executor;

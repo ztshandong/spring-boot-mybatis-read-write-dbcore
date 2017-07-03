@@ -1,4 +1,4 @@
-package main.java.com.zhangtao;
+package com.zhangtao;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -15,7 +15,7 @@ import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.context.annotation.ComponentScan;
 @EnableFeignClients
 @EnableAutoConfiguration
-@ComponentScan(basePackages={"main.java.com.zhangtao"})
+@ComponentScan(basePackages={"com.zhangtao"})
 @SpringBootApplication
 @RefreshScope
 @EnableDiscoveryClient

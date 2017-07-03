@@ -1,4 +1,4 @@
-package main.java.com.zhangtao.config.dbconfig;
+package com.zhangtao.config.dbconfig;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
